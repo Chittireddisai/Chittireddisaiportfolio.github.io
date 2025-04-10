@@ -1,0 +1,327 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(177, 70%, 81%);
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: hsl(152, 48%, 37%) 3px solid;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 20px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Project Grid Styles */
+  .project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  /* LinkedIn Section Styles */
+#linkedin {
+    background: #0077b5; /* LinkedIn's brand color */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #linkedin h2 {
+    margin-bottom: 20px;
+  }
+  
+  #linkedin p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0077b5;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .linkedin-button:hover {
+    background: #f4f4f4;
+    color: #005f8e;
+  }
+  /* Download Resume Section Styles */
+#resume {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #resume h2 {
+    margin-bottom: 20px;
+  }
+  
+  #resume p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077b5; /* LinkedIn's brand color */
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background: #005f8e;
+    color: #fff;
+  }
+  /* Certification Link Styles */
+.certification-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #0077b5; /* LinkedIn's brand color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .certification-link:hover {
+    background: #005f8e;
+    color: #fff;
+  }
+  /* Skills Section Styles */
+#skills {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .skills-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .skill-card h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #0077b5; /* LinkedIn's brand color */
+  }
+  
+  .skill-card ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .skill-card ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .skill-card ul li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #28a745; /* Green checkmark color */
+  }
+  
+  .soft-skills-note {
+    font-style: italic;
+    color: #777;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  /* Contact Section Styles */
+#contact {
+    background: #0077b5; /* LinkedIn's brand color */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+  }
+  /* Send Resume Section Styles */
+#send-resume {
+  background: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#send-resume h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+#send-resume p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#resume-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#user-email {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background: #0077b5; /* LinkedIn's brand color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.send-button:hover {
+  background: #005f8e;
+}
+
+#response-message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
